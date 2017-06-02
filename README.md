@@ -25,3 +25,5 @@ Pages:
 -Contact: Info and ability to setup an appointment
 
 -About: Description of the company
+
+Technologies: Bootstrap is going to be used for mobile first design, and a clean looking site.
