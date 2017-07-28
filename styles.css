@@ -36,6 +36,11 @@ h4 {
     width: 100%;
 }
 
+#work img {
+    width: 40%;
+    margin: 0 auto;
+}
+
 .container-fluid {
     padding: 60px 50px;
 }
