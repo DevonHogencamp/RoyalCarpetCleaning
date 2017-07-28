@@ -1,22 +1,19 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8">
 
-<head>
-    <meta charset="utf-8">
+        <!-- Makes the site display correctly on phones -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Makes the site display correctly on phones -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Royal Carpet Cleaning | Home</title>
 
-    <title>Royal Carpet Cleaning | Home</title>
+        <!-- Latest compiled and minified Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- Latest compiled and minified Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
     <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -32,10 +29,10 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#about">ABOUT</a></li>
                         <li><a href="#services">SERVICES</a></li>
                         <li><a href="#portfolio">PORTFOLIO</a></li>
                         <li><a href="#pricing">PRICING</a></li>
+                        <li><a href="#about">ABOUT</a></li>
                         <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
@@ -43,65 +40,33 @@
         </nav>
 
         <div class="jumbotron text-center">
-            <img src="images/IMG_0348.png" alt="">
-        </div>
-
-        <!-- Container (About Section) -->
-        <div id="about" class="container-fluid">
-            <div class="row">
-                <div class="col-sm-8">
-                    <h2>About Company Page</h2><br>
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <br><button class="btn btn-default btn-lg">Get in Touch</button>
-                </div>
-                <div class="col-sm-4">
-                    <span class="glyphicon glyphicon-signal logo"></span>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid bg-grey">
-            <div class="row">
-                <div class="col-sm-4">
-                    <span class="glyphicon glyphicon-globe logo slideanim"></span>
-                </div>
-                <div class="col-sm-8">
-                    <h2>Our Values</h2><br>
-                    <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-                    <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-            </div>
+            <img id="hero" src="hero.png" alt="">
         </div>
 
         <!-- Container (Services Section) -->
-        <div id="services" class="container-fluid text-center">
+        <div id="services" class="container-fluid text-center bg-grey">
             <h2>SERVICES</h2>
             <h4>What we offer</h4>
             <br>
-            <div class="row slideanim">
+            <div class="row">
                 <div class="col-sm-4">
-                    <span class="glyphicon glyphicon-off logo-small"></span>
-                    <h4>POWER</h4>
-                    <p>Lorem ipsum dolor sit amet..</p>
+                    <img src="images/servicesCarpet.jpg" alt="">
+                    <h4>Carpet Cleaning</h4>
+                    <p>We use the most powerful, and highest rated, truck-mounted steam cleaning equipment available for professional carpet cleaners today.</p>
                 </div>
                 <div class="col-sm-4">
-                    <span class="glyphicon glyphicon-heart logo-small"></span>
-                    <h4>LOVE</h4>
-                    <p>Lorem ipsum dolor sit amet..</p>
+                    <img src="images/servicesUpholstery.jpg" alt="">
+                    <h4>Upholstery Cleaning</h4>
+                    <p>We use proffesional upholstery cleaning equipment to make you upholstery look like new.</p>
                 </div>
                 <div class="col-sm-4">
-                    <span class="glyphicon glyphicon-lock logo-small"></span>
+                    <img src="images/" alt="">
                     <h4>JOB DONE</h4>
                     <p>Lorem ipsum dolor sit amet..</p>
                 </div>
             </div>
             <br><br>
-            <div class="row slideanim">
+            <div class="row">
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-leaf logo-small"></span>
                     <h4>GREEN</h4>
@@ -121,9 +86,9 @@
         </div>
 
         <!-- Container (Portfolio Section) -->
-        <div id="portfolio" class="container-fluid text-center bg-grey">
-            <h2>Portfolio</h2><br>
-            <h4>What we have created</h4>
+        <div id="portfolio" class="container-fluid text-center">
+            <h2>Work</h2><br>
+            <h4>What we have cleaned</h4>
             <div class="row text-center slideanim">
                 <div class="col-sm-4">
                     <div class="thumbnail">
@@ -149,7 +114,7 @@
             </div><br>
 
             <h2>What our customers say</h2>
-            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+            <div id="myCarousel" class="carousel slide text-center bg-grey" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -249,6 +214,20 @@
             </div>
         </div>
 
+        <!-- Container (About Section) -->
+        <div id="about" class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>About Company Page</h2><br>
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <br><button class="btn btn-default btn-lg">Get in Touch</button>
+                </div>
+            </div>
+        </div>
+
         <!-- Container (Contact Section) -->
         <div id="contact" class="container-fluid bg-grey">
             <h2 class="text-center">CONTACT</h2>
@@ -332,5 +311,4 @@
         <!-- Latest compiled and minified Bootstrap JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
-
 </html>
