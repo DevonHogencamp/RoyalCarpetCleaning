@@ -21,7 +21,7 @@ h4 {
 }
 
 .jumbotron {
-    background-color: rgba(80, 34, 116, 1);
+    background-color: rgb(97, 41, 142);
     color: #fff;
     padding: 0px;
     font-family: Montserrat, sans-serif;
@@ -29,7 +29,12 @@ h4 {
 }
 
 #hero {
-    width: 100%;
+    width: 60%;
+}
+
+#logo {
+    width: 5%;
+    display: inline;
 }
 
 #services img {
