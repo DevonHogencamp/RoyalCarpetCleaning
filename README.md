@@ -30,4 +30,4 @@ Technologies: Bootstrap is going to be used for mobile first design, and a clean
 
 Logging of Time spent on the project in hours: 
 
-Total: 18 hrs * $25/hr = $
+Total: 18.5 hrs * $25/hr = $462.50
