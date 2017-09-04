@@ -13,6 +13,11 @@ Requirements:
 * Mobile first
 * Similar to Holts Carpet Cleaning but not a exact copy
 * Create logo
+* Social Media Google and Yelp Reviews
+* Title attention grabber like on cranmore
+* Reasons why to choose us
+* Clickable google map
+* Blog
 
 Pages:
 
