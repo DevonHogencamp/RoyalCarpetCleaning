@@ -8,31 +8,16 @@ Timeline: There is no set deadline for the project. Based on the requirements th
 
 Pricing: The clients budget is $1000.00. The cost to the client is calculated by the hours worked and the cost/hour. Depending on the type of work required and the complexity our agreed upon cost/hour is $25/hour.
 
-Requirements:
+Checklist:
 
 * Mobile first
-* Similar to Holts Carpet Cleaning but not a exact copy
-* Create logo
-* Social Media Google and Yelp Reviews
 * Title attention grabber like on cranmore
 * Reasons why to choose us
-* Clickable google map
 * Blog
-
-Pages:
-
--Home: Overview of everything
-
--Services: Carpet Upholstery Stone Tile/Grout Pet Spots/Odor Commercial
-
--Pricing: Pricing for all the services
-
--Contact: Info and ability to setup an appointment
-
--About: Description of the company
+* Click on services and goes to expanded version
 
 Technologies: Bootstrap is going to be used for mobile first design, and a clean looking site.
 
 Logging of Time spent on the project in hours: 
 
-Total: 18.5 hrs * $25/hr = $462.50
+Total: 23 hrs * $25/hr = $525.00

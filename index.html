@@ -13,9 +13,39 @@
 
         <!-- Custom Styles -->
         <link rel="stylesheet" href="styles.css">
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+        <div class="icon-bar">
+            <a class="fb" href="#"><i class="fa fa-facebook"></i></a> 
+            <a class="google" href="#"><i class="fa fa-google"></i></a> 
+            <a class="yelp" href="#"><i class="fa fa-yelp"></i></a> 
+            <a class="regular" href="#"><i class="fa fa-calculator"></i></a>
+            <a class="regular" href="#"><i class="fa fa-calendar"></i></a> 
+        </div>
 
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -43,14 +73,25 @@
             </div>
         </nav>
 
-        <div class="jumbotron text-center">
+        <div class="jumbotron  text-center">
             <img id="hero" src="images/hero.png" alt="">
+
+            <div class="container text-left">
+                <h1>THE TOP RATED CARPET CLEANER IN SURPRISE AZ</h1>
+                <h1>An Amazing Service At An Affordable Price</h1>
+                <hr class="my-4">
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Make and Appointment</a>
+                </p>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Request a Free Quote</a>
+                </p>
+            </div>
         </div>
 
         <!-- Container (Services Section) -->
         <div id="services" class="container-fluid text-center bg-grey">
-            <h2>SERVICES</h2>
-            <h4>What we offer</h4>
+            <h1>SERVICES</h1>
             <br>
             <div class="row slideanim">
                 <div class="col-sm-3 col-xs-12">
@@ -149,12 +190,12 @@
             <h2>Work</h2><br>
             <h4>What we have cleaned</h4>
             <div class="row text-center slideanim">
-                <div id="myCarousel" class="carousel slide text-center bg-grey" data-ride="carousel">
+                <div id="imageSlider" class="carousel slide text-center bg-grey" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#imageSlider" data-slide-to="0" class="active"></li>
+                        <li data-target="#imageSlider" data-slide-to="1"></li>
+                        <li data-target="#imageSlider" data-slide-to="2"></li>
                     </ol>
     
                     <!-- Wrapper for slides -->
@@ -171,11 +212,11 @@
                     </div>
     
                     <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <a class="left carousel-control" href="#imageSlider" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <a class="right carousel-control" href="#imageSlider" role="button" data-slide="next">
                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
@@ -183,12 +224,12 @@
             </div><br>
 
             <h2>What our customers say</h2>
-            <div id="myCarousel" class="carousel slide text-center bg-grey" data-ride="carousel">
+            <div id="quoteSlider" class="carousel slide text-center bg-grey" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#quoteSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#quoteSlider" data-slide-to="1"></li>
+                    <li data-target="#quoteSlider" data-slide-to="2"></li>
                 </ol>
 
                 <!-- Wrapper for slides -->
@@ -205,11 +246,11 @@
                 </div>
 
                 <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <a class="left carousel-control" href="#quoteSlider" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <a class="right carousel-control" href="#quoteSlider" role="button" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
@@ -219,7 +260,7 @@
         <!-- Container (About Section) -->
         <div id="about" class="container-fluid">
             <div class="row slideanim">
-                <div class="col-sm-12">
+                <div class="col-sm-6">
                     <h2>About Company Page</h2><br>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -227,6 +268,8 @@
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <br><button class="btn btn-default btn-lg">Get in Touch</button>
                 </div>
+
+                <div id="map" class="col-sm-6"></div>
             </div>
         </div>
 
@@ -236,8 +279,8 @@
             <div class="row slideanim">
                 <div class="col-sm-5">
                     <p>Contact us and we'll get back to you within 24 hours.</p>
-                    <p><span class="glyphicon glyphicon-map-marker"></span> Surprise, AZ</p>
-                    <p><span class="glyphicon glyphicon-phone"></span> (623) 748-3811</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> 16221 N 162nd Ln, Surprise, AZ 85374</p>
+                    <p><span class="glyphicon glyphicon-phone"></span> (602) 437-2650</p>
                 </div>
                 <div class="col-sm-7">
                     <div class="row slideanim">
@@ -262,7 +305,7 @@
             <a href="#myPage" title="To Top">
                 <span class="glyphicon glyphicon-chevron-up"></span>
             </a>
-            <p>Copyright 2016 Royal Carpet Cleaning | All Rights Reserved | Website Designed by Devon Hogencamp</p>
+            <p>&copy;Copyright 2017 Royal Carpet Cleaning | All Rights Reserved | Website Built by Devon Hogencamp</p>
         </footer>
 
         <!-- Latest compiled and minified JQuery -->
@@ -309,5 +352,24 @@
 
         <!-- Latest compiled and minified Bootstrap JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <script>
+            function initMap() {
+                var center = {lat: 33.538907, lng: -112.180454};
+                var location = {lat: 33.632555, lng: -112.408698};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 10,
+                    center: center
+                });
+                var marker = new google.maps.Marker({
+                    position: location,
+                    map: map
+                });
+            }
+        </script>
+
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2WmRvOuQ-jG0_oLNuPZHDIW4pUTa2j9k&callback=initMap">
+        </script>
     </body>
 </html>
