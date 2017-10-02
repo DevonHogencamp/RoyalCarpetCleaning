@@ -4,14 +4,15 @@ body {
     color: black;
 }
 
-
-
 h2 {
     font-size: 24px;
     text-transform: uppercase;
     color: black;
     font-weight: 600;
     margin-bottom: 30px;
+}
+.card-tile {
+    font-size: 100px;
 }
 
 h4 {
@@ -31,7 +32,7 @@ h4 {
 }
 
 #hero {
-    width: 60%;
+    width: 65%;
 }
 
 #logo {
@@ -50,8 +51,8 @@ h4 {
 }
 
 #work img {
-    width: 40%;
-    margin: 0 auto;
+    width: 65%;
+    margin: 100px auto;
 }
 
 .container-fluid {
@@ -102,7 +103,8 @@ h4 {
     font-size: 19px;
     line-height: 1.375em;
     font-weight: 400;
-    margin: 100px 200px;
+    width: 80%;
+    margin: 100px auto;
 }
 
 .item span {
@@ -221,41 +223,23 @@ footer .glyphicon {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .col-sm-4 {
-        text-align: center;
-        margin: 25px 0;
-    }
-    .btn-lg {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .logo {
-        font-size: 150px;
-    }
-}
-
-.icon-bar {
-    width: 4%; /* Set a specific width */
+.side-bar {
     position: fixed;
     top: 25%;
     left: 0;
     z-index: 1000;
 }
 
-.icon-bar a {
-    display: block; /* Make the links appear below each other instead of side-by-side */
-    text-align: center; /* Center-align text */
-    padding: 12px; /* Add some padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    color: white; /* White text color */
-    font-size: 36px; /* Increased font-size */
+.side-bar a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
 }
 
-.icon-bar a:hover {
+.side-bar a:hover {
     opacity: .5;
 }
 
@@ -277,4 +261,48 @@ footer .glyphicon {
 
 #map {
     height: 400px;
+}
+
+@media screen and (max-width: 1200px) {
+    #hero {
+        margin: 100px auto;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .side-bar a {
+        font-size: 24px;
+        padding: .5rem;
+    }
+    #work img {
+        width: 85%;
+    }
+    #hero {
+        margin: 50px auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+    .side-bar a {
+        font-size: 18px;
+        padding: .3rem;
+    }
+    #work img {
+        width: 100%;
+    }
+    #hero {
+        margin: 100px auto;
+    }
 }

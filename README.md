@@ -10,11 +10,9 @@ Pricing: The clients budget is $1000.00. The cost to the client is calculated by
 
 Checklist:
 
-* Mobile first
 * Reasons why to choose us
 * Blog
 * Click on services and goes to expanded version
-* Link all buttons
 
 Technologies: Bootstrap is going to be used for mobile first design, and a clean looking site.
 

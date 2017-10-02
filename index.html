@@ -9,37 +9,18 @@
         <title>Royal Carpet Cleaning | Home</title>
 
         <!-- Latest compiled and minified Bootstrap CSS -->
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
         <!-- Custom Styles -->
         <link rel="stylesheet" href="styles.css">
 
-        <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-
         <!-- Add icon library -->
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-        <div class="icon-bar">
+        <div class="side-bar">
             <a class="fb" href=""><i class="fa fa-facebook"></i></a> 
             <a class="google" href=""><i class="fa fa-google"></i></a> 
             <a class="yelp" href=""><i class="fa fa-yelp"></i></a> 
@@ -76,7 +57,7 @@
         <div class="jumbotron  text-center">
             <img id="hero" src="images/hero.png" alt="">
 
-            <div class="container text-left">
+            <div class="container-fluid text-center">
                 <h1>The Top Rated Carpet Cleaner in Surprise Az</h1>
                 <h1>An Amazing Service At An Affordable Price</h1>
                 <hr class="my-4">
@@ -91,10 +72,10 @@
 
         <!-- Container (Services Section) -->
         <div id="services" class="container-fluid text-center bg-grey">
-            <h1>SERVICES</h1>
+            <h1>Services</h1>
             <br>
             <div class="row slideanim">
-                <div class="col-sm-3 col-xs-12">
+                <div class="col-lg-3 col-sm-6 col-xs-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h1>Carpet Cleaning</h1>
@@ -112,12 +93,14 @@
                             </ul>
                         </div>
                         <div class="panel-footer">
-                            <button class="btn btn-lg">Make an appointment</button>
+                            <a href="#contact">
+                                <button class="btn btn-lg">Make an appointment</button>
+                            </a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-sm-3 col-xs-12">
+                <div class="col-lg-3 col-sm-6 col-xs-12">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
                             <h1>Upholstery Cleaning</h1>
@@ -133,13 +116,13 @@
                                 <li>Make your upholstery look like new</li>
                             </ul>
                         </div>
-                        <div class="panel-footer">
+                        <a href="#contact">
                             <button class="btn btn-lg">Make an appointment</button>
-                        </div>
+                        </a>
                     </div>
                 </div>
 
-                <div class="col-sm-3 col-xs-12">
+                <div class="col-lg-3 col-sm-6 col-xs-12">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
                             <h1>Tile and Grout Cleaning</h1>
@@ -157,13 +140,13 @@
                                 <li>High Pressure Wash</li>
                             </ul>
                         </div>
-                        <div class="panel-footer">
+                        <a href="#contact">
                             <button class="btn btn-lg">Make an appointment</button>
-                        </div>
+                        </a>
                     </div>
                 </div>
 
-                <div class="col-sm-3 col-xs-12">
+                <div class="col-lg-3 col-sm-6 col-xs-12">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
                             <h1>Pet Odor Elimination</h1>
@@ -177,9 +160,9 @@
                                 <li>Makes your home smell like home again</li>
                             </ul>
                         </div>
-                        <div class="panel-footer">
+                        <a href="#contact">
                             <button class="btn btn-lg">Make an appointment</button>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -187,8 +170,7 @@
 
         <!-- Container (Portfolio Section) -->
         <div id="work" class="container-fluid text-center">
-            <h2>Work</h2><br>
-            <h4>What we have cleaned</h4>
+            <h1>Work</h1>
             <div class="row text-center slideanim">
                 <div id="imageSlider" class="carousel slide text-center bg-grey" data-ride="carousel">
                     <!-- Indicators -->
@@ -223,7 +205,7 @@
                 </div>
             </div><br>
 
-            <h2>What our customers say</h2>
+            <h1>What Our Customers Say</h1>
             <div id="quoteSlider" class="carousel slide text-center bg-grey" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -265,31 +247,31 @@
                     <div class="card">
                         <div class="card-body">
                             <h1 class="card-title">1</h1>
-                            <p class="card-text">Carpet and Tile cleaning is a very labor intensive job. Every member of our hard working crew is committed to 100% customer satisfaction.</p>
+                            <p class="card-text">Family owned & operated. We consider all our customers an extension of our family. Never settle for a corporate giant’s indifferent technician, experience Cranmore Courtesy today!</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <h1 class="card-title">1</h1>
-                            <p class="card-text">Carpet and Tile cleaning is a very labor intensive job. Every member of our hard working crew is committed to 100% customer satisfaction.</p>
+                            <h1 class="card-title">2</h1>
+                            <p class="card-text">Carpet & Tile cleaning is a very labor intensive job. Every member of our hard working crew is committed to 100% customer satisfaction.</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <h1 class="card-title">1</h1>
-                            <p class="card-text">Carpet and Tile cleaning is a very labor intensive job. Every member of our hard working crew is committed to 100% customer satisfaction.</p>
+                            <h1 class="card-title">3</h1>
+                            <p class="card-text">Your time is valuable. At Cranmore we won’t give you a ‘time window’, we have the utmost respect for your time and book exact time appointments.</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <h1 class="card-title">1</h1>
-                            <p class="card-text">Carpet and Tile cleaning is a very labor intensive job. Every member of our hard working crew is committed to 100% customer satisfaction.</p>
+                            <h1 class="card-title">4</h1>
+                            <p class="card-text">Our truck mounted equipment provides you with the deepest clean & fastest dry time possible. This allows you to get back to your routine as quickly as possible.</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <h1 class="card-title">1</h1>
-                            <p class="card-text">Carpet and Tile cleaning is a very labor intensive job. Every member of our hard working crew is committed to 100% customer satisfaction.</p>
+                            <h1 class="card-title">5</h1>
+                            <p class="card-text">Satisfaction Guaranteed. If any part of your service does not meet your expectations, let us know and we will promptly and professionally address and resolve your concerns.</p>
                         </div>
                     </div>
                 </div>
@@ -300,7 +282,7 @@
         <div id="about" class="container-fluid">
             <div class="row slideanim">
                 <div class="col-sm-6">
-                    <h2>About Company Page</h2><br>
+                    <h1>About Company Page</h1><br>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -314,7 +296,7 @@
 
         <!-- Container (Contact Section) -->
         <div id="contact" class="container-fluid bg-grey">
-            <h2 class="text-center">CONTACT</h2>
+            <h1 class="text-center">CONTACT</h1>
             <div class="row slideanim">
                 <div class="col-sm-5">
                     <p>Contact us and we'll get back to you within 24 hours.</p>
@@ -331,8 +313,8 @@
                         </div>
                     </div>
                     <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-                    <div class="row slideanim">
-                        <div class="col-sm-12 form-group">
+                    <div class="row">
+                        <div class="form-group">
                             <button class="btn btn-default pull-right" type="submit">Send</button>
                         </div>
                     </div>
@@ -348,7 +330,7 @@
         </footer>
 
         <!-- Latest compiled and minified JQuery -->
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <script>
             $(document).ready(function() {
@@ -390,7 +372,7 @@
         </script>
 
         <!-- Latest compiled and minified Bootstrap JavaScript -->
-        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
         <script>
             function initMap() {
@@ -407,8 +389,8 @@
             }
         </script>
 
-        <!-- <script async defer
+        <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2WmRvOuQ-jG0_oLNuPZHDIW4pUTa2j9k&callback=initMap">
-        </script> -->
+        </script>
     </body>
 </html>
